@@ -7,16 +7,9 @@ const app = express();
 const { getAggregationArray } = require("aggregation-query");
 
 
-// parses json data sent to us by the user 
-// app.use(bodyParser.json());
-
-// serve static html file to user
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'index.html'));
-// });
-
 // read 
 function getAllItems(req, res) {
+    console.log(req);
     var clientInput = req.body.options;
     var aggregateArray = getAggregationArray(req);
     var collection = clientInput.collection;
@@ -117,7 +110,6 @@ module.exports = {
 /*
     var clientInput = {
     model: "test",
-    redux: "test",
     data: {},
     selector:{},
     collection:"test"

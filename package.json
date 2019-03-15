@@ -4,14 +4,15 @@
   "description": "mongo db query controller",
   "main": "index.js",
   "scripts": {
-    "test": "tap --coverage test/index.js"
+    "test": "tap --coverage test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bgbhavesh/mongo-crud-controller.git"
   },
   "keywords": [
-    "mongo"
+    "mongo",
+    "bgbhavesh"
   ],
   "author": "bgbhavesh",
   "license": "ISC",
