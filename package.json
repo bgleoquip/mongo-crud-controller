@@ -1,0 +1,32 @@
+{
+  "name": "mongo-crud-common",
+  "version": "0.0.1",
+  "description": "mongo db query controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --coverage test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgbhavesh/mongo-crud-controller.git"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "bgbhavesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgbhavesh/mongo-crud-controller/issues"
+  },
+  "homepage": "https://github.com/bgbhavesh/mongo-crud-controller#readme",
+  "devDependencies": {
+    "nyc": "^13.2.0",
+    "standard": "^12.0.1",
+    "tap": "^12.5.2"
+  },
+  "dependencies": {
+    "aggregation-query": "^1.0.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  }
+}
