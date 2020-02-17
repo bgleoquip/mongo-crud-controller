@@ -5,7 +5,7 @@ var dbname = "crud_mongodb";
 // location of where our mongoDB database is located
 var dburl = "mongodb://localhost:27017";
 // Options for mongoDB
-const mongoOptions = { useNewUrlParser: true };
+const mongoOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
 const state = {
     db: null,

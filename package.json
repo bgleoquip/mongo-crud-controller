@@ -1,6 +1,6 @@
 {
   "name": "mongo-crud-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mongo db query controller",
   "main": "index.js",
   "scripts": {
